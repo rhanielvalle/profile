@@ -1,0 +1,93 @@
+body {
+  background-color: #00242e;
+  position: relative;
+  text-align: center;
+} 
+
+a {
+  text-decoration: none;
+}
+
+.center-content {
+/*  margin: 0 auto;*/
+  position: absolute;
+  left: 25%
+}
+
+.container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profile-card {
+  width: 50vw;
+  max-width: 400px;
+  background-color: #F4EFDE;
+  border-radius: 10px;
+  padding: 50px 20px 30px 20px;
+  margin: 0 auto;
+}
+/*#9F0A43 #001B23*/
+.avatar {
+  background-image:
+  linear-gradient(to bottom, rgba(198, 0, 98, 0.6), rgba(0, 27, 35, 0.73)),
+  url('https://media.licdn.com/dms/image/C4D03AQF02lpdlKDdeA/profile-displayphoto-shrink_200_200/0?e=1577923200&v=beta&t=lgJhEazuNBGisfMo2jnxWi7dr-Qy7mcXfFtno7f60NU');
+  
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 180px;
+  height: 180px;
+  background-size: contain;
+}
+
+.developer-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 3em;
+  color: #51383D;
+}
+
+.bio-paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #51383D;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  padding-bottom: 20px;
+}
+
+.tagline {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.tagline a{
+  color: #9F0A43;
+}
+
+.nav_social{
+  display: inline;
+}
+
+.separator {
+  height: 1px;
+  background-color: #51383D;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+.nav_social a{
+  font-size: 2.5em;
+  color: #51383D;
+  margin: 10px;
+}
+
+.nav_social a :hover{
+  color: #9F0A43;
+}
