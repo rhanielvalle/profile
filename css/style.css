@@ -1,6 +1,5 @@
 body {
   background-color: #00242e;
-  position: relative;
   text-align: center;
 } 
 
@@ -10,7 +9,6 @@ a {
 
 .center-content {
 /*  margin: 0 auto;*/
-  position: absolute;
   left: 25%
 }
 
